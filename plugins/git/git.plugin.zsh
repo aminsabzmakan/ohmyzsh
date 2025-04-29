@@ -101,7 +101,7 @@ function ggpnp() {
 compdef _git ggpnp=git-checkout
 
 alias ggpur='ggu'
-alias g='git'
+#alias g='git'
 alias ga='git add'
 alias gaa='git add --all'
 alias gapa='git add --patch'
@@ -224,7 +224,7 @@ is-at-least 2.8 "$git_version" \
   && alias gfa='git fetch --all --tags --prune --jobs=10' \
   || alias gfa='git fetch --all --tags --prune'
 alias gfo='git fetch origin'
-alias gg='git gui citool'
+# alias gg='git gui citool'
 alias gga='git gui citool --amend'
 alias ghh='git help'
 alias glgg='git log --graph'
